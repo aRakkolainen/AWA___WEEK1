@@ -1,8 +1,8 @@
 body {
   font-family: sans-serif;
 }
-.wiki-contet {
-  padding: 15px;
+.wiki-content {
+  padding: 10px;
 }
 /*Usage of box-shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
 .wiki-item {
