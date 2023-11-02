@@ -1,23 +1,33 @@
 body {
   font-family: sans-serif;
 }
+.wiki-img {
+  width: 100%;
+}
 .wiki-content {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/*Usage of box-shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
 .wiki-item {
   margin-right: 10px;
   margin-left: 10px;
   box-shadow: 5px 5px 5px 5px gray;
 }
-.wiki-img {
-  width: 100%;
+.wiki-header {
+  text-align: center; 
 }
 
-@media screen, (min-width: 600px) {
+@media screen and (max-width: 500px){
+  /*Usage of box-shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow*/
+  .wiki-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 600px) {
   .wiki-content {
     display: flex;
     flex-flow: row-reverse;
@@ -35,3 +45,4 @@ body {
     margin: 0 auto;
   }
 }
+*/
