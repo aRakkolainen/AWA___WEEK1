@@ -20,7 +20,7 @@ body {
 @media screen, (min-width: 600px) {
   .wiki-content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-flow: row-reverse;
   }
   .wiki-text {
     min-width: 50%;
