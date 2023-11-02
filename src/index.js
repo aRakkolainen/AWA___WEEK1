@@ -13,7 +13,7 @@ async function fetchDogImage(url) {
   console.log(json);
 }
 async function initializeCode() {
-  document.getElementById("app").innerHTML = "<h1>Hello!</h1>";
+  //document.getElementById("app").innerHTML = "<h1>Hello!</h1>";
   let url = "https://dog.ceo/api/breed/";
   let app = document.getElementById("app");
   let container = document.createElement("div");
@@ -32,6 +32,8 @@ async function initializeCode() {
     content.setAttribute("class", "wiki-content");
     let text = document.createElement("p");
     text.setAttribute("class", "wiki-text");
+    text.innerText =
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque natus itaque voluptatem eos aspernatur necessitatibus facilis quidem assumenda cum, sequi perferendis aliquid laudantium nihil temporibus quos modi, nisi quis adipisci.";
     let imgContainer = document.createElement("div");
     imgContainer.setAttribute("class", "img-container");
     let img = document.createElement("img");
