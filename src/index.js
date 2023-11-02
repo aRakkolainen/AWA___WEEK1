@@ -13,7 +13,6 @@ async function fetchDogImage(url) {
   console.log(json);
 }
 async function initializeCode() {
-  //document.getElementById("app").innerHTML = "<h1>Hello!</h1>";
   let url = "https://dog.ceo/api/breed/";
   let app = document.getElementById("app");
   let container = document.createElement("div");
